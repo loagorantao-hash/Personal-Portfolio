@@ -7,8 +7,8 @@ import slide2 from "@/assets/loago-slide2.jpeg";
 import slide3 from "@/assets/loago-slide3.jpeg";
 
 const slides = [
-  { id: 1, src: heroImage, alt: "Loago Junior Rantao - Portrait", caption: "Loago Junior Rantao" },
-  { id: 2, src: slide1, alt: "Loago Junior Rantao - Professional Profile", caption: "BI Analyst & Software Developer" },
+  { id: 1, src: slide1, alt: "Loago Junior Rantao - Professional Profile", caption: "Loago Junior Rantao" },
+  { id: 2, src: heroImage, alt: "Loago Junior Rantao - Portrait", caption: "BI Analyst & Software Developer" },
   { id: 3, src: slide2, alt: "Loago - Tech & Innovation Exploration", caption: "Building & Innovation" },
   { id: 4, src: slide3, alt: "Loago - Analytics & Development Workspace", caption: "Analytics & Product Development Setup" },
 ];
