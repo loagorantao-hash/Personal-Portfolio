@@ -81,7 +81,6 @@ const autobotsProjects = [
     tools: ["React", "TypeScript", "Tailwind CSS", "UI/UX Design"],
     features: ["Modern Responsive Design", "Service & Practice Area Layouts", "Client Inquiry Integration", "High Performance & Accessibility"],
     outcome: "Delivered a modern website building client trust and online inquiries.",
-    liveLink: "https://rantaoattorneys.lovable.app",
   },
   {
     id: "bofwa-website",
