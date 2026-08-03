@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 const links = [
   { to: "/", label: "Home" },
   { to: "/projects", label: "Projects" },
-  { to: "/rantaox", label: "RantaoX" },
+  { to: "/autobots", label: "Autobots Dev" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ];
@@ -28,7 +28,7 @@ const Navbar = () => {
               key={l.to}
               to={l.to}
               className={`px-3 py-2 rounded-lg text-sm font-light tracking-wide transition-colors ${
-                pathname === l.to
+                pathname === l.to || (l.to === "/autobots" && pathname === "/rantaox")
                   ? "bg-primary/10 text-primary"
                   : "text-muted-foreground hover:text-foreground hover:bg-secondary"
               }`}
@@ -57,7 +57,7 @@ const Navbar = () => {
               to={l.to}
               onClick={() => setOpen(false)}
               className={`block px-6 py-3 text-sm font-light tracking-wide transition-colors ${
-                pathname === l.to
+                pathname === l.to || (l.to === "/autobots" && pathname === "/rantaox")
                   ? "bg-primary/10 text-primary"
                   : "text-muted-foreground hover:text-foreground"
               }`}
