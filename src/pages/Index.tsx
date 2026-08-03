@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, BarChart3, Brain, Code, Database, Download, Award, ShieldCheck, TrendingUp, Layers } from "lucide-react";
-import heroImage from "@/assets/loago-hero.jpeg";
+import HeroSlider from "@/components/HeroSlider";
 import ProjectCard from "@/components/ProjectCard";
 import SectionHeading from "@/components/SectionHeading";
 
@@ -81,9 +81,7 @@ const Index = () => {
         </motion.div>
 
         <div>
-          <div className="aspect-[4/5] rounded-sm overflow-hidden border border-border">
-            <img src={heroImage} alt="Loago Junior Rantao" className="w-full h-full object-cover" fetchPriority="high" width={512} height={640} decoding="async" />
-          </div>
+          <HeroSlider />
         </div>
       </div>
     </section>

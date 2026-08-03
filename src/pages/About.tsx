@@ -14,13 +14,13 @@ const experience = [
   {
     role: "Business Intelligence Analyst - Banking Analytics",
     company: "FNB Botswana",
-    period: "2024",
+    period: "2025",
     desc: "Designed and delivered 5+ interactive Power BI dashboards for cash deposits, POS transactions, eCommerce, and digital banking metrics. Developed SQL queries for data extraction, transformation, reconciliation, and validation across multiple banking systems. Conducted customer profitability and FX commission analysis. Automated 3 major monthly reports reducing manual preparation time by 70%."
   },
   {
     role: "Transactional Banker - eWallet Pro Support",
     company: "FNB Botswana",
-    period: "2024",
+    period: "2025",
     desc: "Supported digital banking operations by resolving transaction-related queries and escalations. Performed transaction validation and reconciliation activities, identified root causes of issues, and collaborated with product and technical teams to improve customer experience and system reliability."
   }
 ];
@@ -99,7 +99,7 @@ const About = () => (
             First Class Honours Business Intelligence and Data Analytics graduate with hands-on experience in transactional banking, digital financial services at FNB Botswana, and software venture creation as Founder of Autobots Dev (Pty) Ltd.
           </p>
           <p className="text-muted-foreground font-light leading-relaxed">
-            Experienced in transaction validation, reconciliation, reporting automation, and resolving payment-related queries. Skilled in Excel, SQL (T-SQL), Power BI, DAX, and data modeling, with a proven ability to identify transaction trends, support operational processes, and improve service delivery within financial environments.
+            Experienced in transaction validation, reconciliation, reporting automation, and resolving payment-related queries. Skilled in Excel, SQL, Power BI, and data modeling, with a proven ability to identify transaction trends, support operational processes, and improve service delivery within financial environments.
           </p>
           <p className="text-muted-foreground font-light leading-relaxed">
             As Founder of Autobots Dev (Pty) Ltd., I bridge business intelligence with full-stack software engineering—building custom web applications, mobile platforms like Property Lynk (available on Play Store), CRM tools, and AI healthcare initiatives like Botsogo.
